@@ -1,4 +1,4 @@
-pip install -U langchain langchain-openai
+#pip install -U langchain langchain-openai
 
 LANGSMITH_TRACING="true"
 LANGSMITH_ENDPOINT="https://api.smith.langchain.com"
