@@ -1,5 +1,5 @@
 #pip install -U langchain langchain-openai
-
+import streamlit as st
 LANGSMITH_TRACING="true"
 LANGSMITH_ENDPOINT="https://api.smith.langchain.com"
 LANGSMITH_API_KEY=st.secrets["LANGSMITH_API_KEY"]
